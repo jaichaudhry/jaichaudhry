@@ -1,0 +1,27 @@
+{
+  "name": "jaichaudhry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaichaudhry/jaichaudhry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaichaudhry/jaichaudhry/issues"
+  },
+  "homepage": "https://github.com/jaichaudhry/jaichaudhry#readme",
+  "dependencies": {
+    "bufferutil": "1.2.1",
+    "express": "4.14.0",
+    "socket.io": "1.4.8",
+    "utf-8-validate": "1.2.1",
+    "ws": "1.1.1"
+  }
+}
