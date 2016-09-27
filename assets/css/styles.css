@@ -623,3 +623,9 @@ iframe {
   right: 10px;
   left: auto;
 }
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
