@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
     $('.level-label').tooltip();
     
     $('#trimModal').on('shown.bs.modal', function() {
-        $(this).find('.modal-body').append('<iframe id="trimIframe" src="https://marvelapp.com/210b3e8" width="100%" height="600"></iframe><p>Implemented the video trim feature to make it easy for user to trim the video while uploading it to Roposo.</p>');
+        $(this).find('.modal-body').html('<iframe id="trimIframe" src="https://marvelapp.com/210b3e8" width="100%" height="600"></iframe><p>Implemented the video trim feature to make it easy for user to trim the video while uploading it to Roposo.</p>');
     });
 
 });
