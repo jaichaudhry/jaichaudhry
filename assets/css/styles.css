@@ -550,6 +550,12 @@ iframe {
   text-align: center;
 }
 
+.project-wrapper-modal {
+  text-align: center;
+  float: none;
+  display: inline-block;
+}
+
 .project-wrapper:hover .portfolio-hover {
   cursor: pointer;
   opacity: 1;
@@ -591,44 +597,18 @@ iframe {
     margin:40px auto;
 }
 
-.effect2
-{
-  position: relative;
-}
-.effect2:before, .effect2:after
-{
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
-}
-.effect2:after {
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
-  right: 10px;
-  left: auto;
-}
-
 .modal-content {
   height: auto;
   min-height: 100%;
   border-radius: 0;
   position: fixed;
   min-width: 100%;
+}
+
+.close span {
+  font-size: 60px;
+}
+
+.close:focus {
+  outline: none;
 }
