@@ -21,7 +21,11 @@ jQuery(document).ready(function($) {
     
     /* Bootstrap Tooltip for Skillset */
     $('.level-label').tooltip();
-    
+
+    $('#magnifi1').on('shown.bs.modal', function() {
+        $(this).find('.modal-body').html('<p style="margin-top: 20px;">Redesigned the home screen for Magnifi app. A circular collection view was implemented for this page, where you can scroll to and fro and checkout the latest shows by genre, location and venues. I open sourced the collection view used for this page design on github.</p><div class="item row" style="margin-top: 40px;"><div class="col-md-3 project-wrapper-modal"><div class="img-wrapper clearfix" style="width:250px;height:444.67px"><img class="profile-image img-responsive pull-left" src="assets/images/projects/magnifi/magnifi2.png" alt="magnifi2"/></div></div><div class="col-md-3 project-wrapper-modal"><div class="img-wrapper clearfix" style="width:250px;height:444.67px"><img class="profile-image img-responsive pull-left" src="assets/images/projects/magnifi/magnifi1.png" alt="magnifi1"/></div></div></div><!--//item-->');
+    });
+
     $('#feedModal').on('shown.bs.modal', function() {
         $(this).find('.modal-body').html('<p style="margin-top: 20px;">Implemented the new design for the feed of Roposo. Completely revamped the structure of the code to incorporate <b>AsyncDisplayKit</b>. This increased the scrolling performance by 10x.</p><div class="item row" style="margin-top: 40px;"><div class="col-md-3 project-wrapper-modal"><div class="img-wrapper clearfix" style="width:250px;height:444.67px"><img class="profile-image img-responsive pull-left" src="assets/images/projects/roposo/roposo13.JPG" alt="roposo1"/></div></div><div class="col-md-3 project-wrapper-modal"><div class="img-wrapper clearfix" style="width:250px;height:444.67px"><img class="profile-image img-responsive pull-left" src="assets/images/projects/roposo/roposo14.JPG" alt="roposo1"/></div></div><div class="col-md-3 project-wrapper-modal"><div class="img-wrapper clearfix" style="width:250px;height:444.67px"><img class="profile-image img-responsive pull-left" src="assets/images/projects/roposo/roposo15.JPG" alt="roposo1"/></div></div></div><!--//item-->');
     });
